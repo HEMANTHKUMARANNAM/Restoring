@@ -104,6 +104,7 @@ public class Non_Restoing
 
         if (A.charAt(0) == '1') 
         {
+            System.out.println("got special codition");
             A = features.feature.addBinaryStrings(A, M);
         }
 

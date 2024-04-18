@@ -42,7 +42,7 @@ public class feature
         return twosComplement;
     }
 
-    private static String calculateOnesComplement(String binaryString) {
+    public static String calculateOnesComplement(String binaryString) {
         StringBuilder onesComplement = new StringBuilder();
 
         for (char bit : binaryString.toCharArray()) {
