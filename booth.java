@@ -18,7 +18,6 @@ public class booth
 
         sc.close();
 
-        14
         // String M = "1011";
         // String Q = "0100";
 

@@ -1,29 +1,9 @@
-
 import java.util.Scanner;
 
 import features.feature;
 
-public class App
+public class restoring 
 {
-
-    // public static void main(String[] args) 
-    // {
-    //     String num = "0000";
-    //     for (int i = 0; i <=15 ; i++)
-    //     {
-    //         System.out.print(num + " = " );
-    //         String twosComplement = features.feature.convert(num);
-    //         System.out.println(twosComplement);
-    //         num = feature.addBinaryStrings(num, "1");
-    //     }
-    // }
-
-    // public static void main(String[] args) 
-    // {
-    //     System.out.println(feature.addBinaryStrings("101", "001"));
-    // }
-    
-
     public static void main(String[] args) 
     {
         
@@ -69,8 +49,6 @@ public class App
         System.out.println("M = " + M );
 
 
-        // String Q = "1011";
-        // String M = "0011";
 
         String complement = features.feature.convert(M);
 
@@ -130,9 +108,5 @@ public class App
         String remainder = Integer.toString(Integer.parseInt(A, 2));
 
         System.out.printf("%d = %d X %d + %d" , decimalNumber , decimalNumber2 , Integer.parseInt(quiotient) ,Integer.parseInt(remainder));
-
-
     }
-
-
 }
